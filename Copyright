@@ -1,1 +1,3 @@
+<!-- Actualiza el año para mantenerlo actualizado en el Copyrigth -->
+
 <script>document.write(new Date().getFullYear())</script>
