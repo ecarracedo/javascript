@@ -1,0 +1,24 @@
+<!-- Cambia el formato de yyyy-mm-dd a dd-mm-yyyy
+
+function date (fecha){
+
+        
+        var date = new Date (fecha);
+        
+        var day = date.getDate() + 1
+        var month = date.getMonth() + 1
+        var year = date.getFullYear()
+
+        if(day < 10){
+            day = (`0${day}`)
+        }
+        
+        if(month < 10){
+          date = (`${day}-0${month}-${year}`)
+        }else{
+          date = (`${day}-${month}-${year}`)
+        }
+
+        return date;
+ 
+}
